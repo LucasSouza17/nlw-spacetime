@@ -16,7 +16,10 @@ export function Profile() {
 
       <p className="text-sm leading-snug">
         {name}
-        <a href="" className="hover:text-header-300 block text-red-400">
+        <a
+          href="/api/auth/logout"
+          className="hover:text-header-300 block text-red-400"
+        >
           Quero sair
         </a>
       </p>
