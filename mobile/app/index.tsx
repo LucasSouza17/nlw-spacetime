@@ -1,7 +1,7 @@
-import { useEffect } from 'react'
+import { useEffect, useState } from 'react'
 import { Text, TouchableOpacity, View } from 'react-native'
 import * as SecureStore from 'expo-secure-store'
-import { useRouter } from 'expo-router'
+import { SplashScreen, useRouter } from 'expo-router'
 import { makeRedirectUri, useAuthRequest } from 'expo-auth-session'
 
 import NLWLogo from '../src/assets/nlw-spacetime.svg'
@@ -16,6 +16,7 @@ const discovery = {
 
 export default function App() {
   const router = useRouter()
+  const [isLoadingToken, setIsLoadingToken] = useState(true)
 
   const [, response, signInWithGithub] = useAuthRequest(
     {
@@ -45,6 +46,21 @@ export default function App() {
       handleGithubOAuthCode(code)
     }
   }, [response])
+
+  useEffect(() => {
+    SecureStore.getItemAsync('token').then((token) => {
+      if (token) {
+        router.push('memories')
+      }
+      setTimeout(() => {
+        setIsLoadingToken(false)
+      }, 500)
+    })
+  }, [])
+
+  if (isLoadingToken) {
+    return <SplashScreen />
+  }
 
   return (
     <View className="flex-1 items-center px-8 py-10">
