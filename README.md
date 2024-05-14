@@ -74,4 +74,6 @@ O servidor foi implementado utilizando Node.js e Express, fornecendo uma API rob
 - Expo CLI instalado
 - SQLite ou outro banco de dados compatível configurado
 
-## Acesse meu post no linkedin [Aqui!!]('https://www.linkedin.com/feed/update/urn:li:activity:7066577225298395136/')
+## Acesse meu post no linkedin
+
+[Veja o post original no LinkedIn](https://www.linkedin.com/feed/update/urn:li:activity:7076628422516518912/)
