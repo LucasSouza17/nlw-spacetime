@@ -57,6 +57,7 @@ O servidor foi implementado utilizando Node.js e Express, fornecendo uma API rob
 - **Node.js**: Ambiente de execução para JavaScript no lado do servidor.
 - **Fastify**: Framework web para Node.js.
 - **Prisma**: ORM (Object-Relational Mapping) para Node.js e TypeScript.
+- **Multer**: Middleware para manipulação de uploads de arquivos.
 - **SQLite**: Banco de dados NoSQL utilizado para armazenamento de dados.
 
 ## Funcionalidades Implementadas
