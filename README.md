@@ -13,7 +13,7 @@
 ![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white) ![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white) ![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge&logo=prisma&logoColor=white) ![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
 
 ![1684803300023](https://github.com/LucasSouza17/nlw-spacetime/assets/62787018/a18f5576-64fb-411c-af9a-ecb556257b38)
-<img src="[https://img.shields.io/badge/Axios-5A29E4?style=for-the-badge&logo=axios&logoColor=white](https://github.com/LucasSouza17/nlw-spacetime/assets/62787018/fe97d3fd-00b6-4f81-86f5-8839a56d663b)" height="500" width="300"/>
+<img src="https://github.com/LucasSouza17/nlw-spacetime/assets/62787018/fe97d3fd-00b6-4f81-86f5-8839a56d663b" height="500" width="300"/>
 
 Este repositório contém o projeto desenvolvido durante o evento NLW (Next Level Week) organizado pela Rocketseat. O projeto é dividido em três partes principais: Web, Mobile e Server, cada uma utilizando tecnologias modernas para fornecer uma experiência completa e integrada.
 
