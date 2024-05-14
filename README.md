@@ -52,7 +52,7 @@ A aplicação mobile foi desenvolvida utilizando React Native com Expo, facilita
 
 ### Server (Node.js)
 
-O servidor foi implementado utilizando Node.js e Express, fornecendo uma API robusta e eficiente. Utilizamos Prisma para gerenciar o banco de dados e implementamos autenticação de usuário via GitHub sem utilizar uma biblioteca de OAuth.
+O servidor foi implementado utilizando Node.js e Fastify, fornecendo uma API robusta e eficiente. Utilizamos Prisma para gerenciar o banco de dados e implementamos autenticação de usuário via GitHub sem utilizar uma biblioteca de OAuth.
 
 - **Node.js**: Ambiente de execução para JavaScript no lado do servidor.
 - **Fastify**: Framework web para Node.js.
